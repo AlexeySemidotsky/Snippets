@@ -1,0 +1,7 @@
+*.suo
+*.user
+bin
+obj
+packages/
+IntegrationTests.VisualState.xml
+TestResult.xml
