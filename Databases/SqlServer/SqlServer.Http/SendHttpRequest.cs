@@ -60,7 +60,7 @@ public partial class StoredProcedures
         }
         catch (Exception ex)
         {         
-            throw new Exception(String.Format("Ошибка чтения http заголовков\r\n: {0}", ex.ToString()));
+            throw new Exception(String.Format("РћС€РёР±РєР° С‡С‚РµРЅРёСЏ http Р·Р°РіРѕР»РѕРІРєРѕРІ\r\n: {0}", ex.ToString()));
         }
     }
 }
