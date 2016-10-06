@@ -7,6 +7,12 @@ Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "NET", "NET", "{A604D32B-40B
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "FilesTasks", "FilesTasks\FilesTasks.csproj", "{6E9D95C5-F6FE-4A65-BE62-39B952377485}"
 EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Databases", "Databases", "{28FDE74B-7411-464D-9775-19C3BDC6128A}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "SqlServer", "SqlServer", "{A439675E-8A14-4ECF-A5FD-FBD2BA2837E0}"
+EndProject
+Project("{00D1A9C2-B5F0-4AF3-8072-F6C62B433612}") = "SqlServer.Http", "Databases\SqlServer\SqlServer.Http\SqlServer.Http.sqlproj", "{6EE6B6F0-C410-49F8-B181-150217436027}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -17,11 +23,19 @@ Global
 		{6E9D95C5-F6FE-4A65-BE62-39B952377485}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{6E9D95C5-F6FE-4A65-BE62-39B952377485}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{6E9D95C5-F6FE-4A65-BE62-39B952377485}.Release|Any CPU.Build.0 = Release|Any CPU
+		{6EE6B6F0-C410-49F8-B181-150217436027}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{6EE6B6F0-C410-49F8-B181-150217436027}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{6EE6B6F0-C410-49F8-B181-150217436027}.Debug|Any CPU.Deploy.0 = Debug|Any CPU
+		{6EE6B6F0-C410-49F8-B181-150217436027}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{6EE6B6F0-C410-49F8-B181-150217436027}.Release|Any CPU.Build.0 = Release|Any CPU
+		{6EE6B6F0-C410-49F8-B181-150217436027}.Release|Any CPU.Deploy.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
 	EndGlobalSection
 	GlobalSection(NestedProjects) = preSolution
 		{6E9D95C5-F6FE-4A65-BE62-39B952377485} = {A604D32B-40BE-4669-87FE-261ED161793B}
+		{A439675E-8A14-4ECF-A5FD-FBD2BA2837E0} = {28FDE74B-7411-464D-9775-19C3BDC6128A}
+		{6EE6B6F0-C410-49F8-B181-150217436027} = {A439675E-8A14-4ECF-A5FD-FBD2BA2837E0}
 	EndGlobalSection
 EndGlobal
